@@ -1,12 +1,14 @@
+import './App.css';
 
-import TodoList from "./pages/TodoList";
+import TodoList from './pages/TodoList';
 
+// Create todo list application
 function App() {
-    return (
-        <div>
-            <TodoList />
-        </div>
-    );
+  return (
+    <>
+      <TodoList />
+    </>
+  );
 }
 
 export default App;
